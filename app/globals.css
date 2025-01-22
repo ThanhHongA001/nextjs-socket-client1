@@ -1,0 +1,127 @@
+/* General layout and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Increase the max-width for larger view */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  input:read-only {
+    background-color: #f1f1f1;
+  }
+  
+  .user-info, .add-user-id, .message-input {
+    margin-bottom: 20px;
+  }
+  
+  .user-id-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-box {
+    max-height: 500px; /* Increase the height for larger chat box */
+    overflow-y: auto;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    text-align: left;
+  }
+  
+  .messages p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .copy-btn {
+    background-color: #28a745;
+    width: auto;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .copy-btn:hover {
+    background-color: #218838;
+  }
+  
+  .add-btn {
+    background-color: #ffc107;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .message-input-field {
+    width: 80%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
