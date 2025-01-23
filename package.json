@@ -8,11 +8,12 @@
     "socket.io-client": "^4.8.1",
     "uuid": "^11.0.5"
   },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+"scripts": {
+  "dev": "next dev -p 3000-3999",
+  "build": "next build",
+  "start": "next start -p 3000-3999"
+}
+,
   "devDependencies": {
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
